@@ -99,35 +99,16 @@ Attendance-Automation-UiPath
 └── README.md
 
 ```
-
 ## Screenshots
 
-### 1. UiPath Workflow
+### UiPath Workflow
+![Workflow](Screenshots/workflow.jpeg)
 
-This workflow reads attendance data from Excel, processes each student's attendance, generates a report, converts it to PDF, and sends it via email.
+### Attendance Excel Input
+![Attendance Input](Screenshots/attendance_input.jpeg)
 
-![Workflow](Screenshots/workflow.png)
+### Generated Attendance Report
+![Attendance Report](Screenshots/report.jpeg)
 
----
-
-### 2. Attendance Excel Input
-
-The automation reads student attendance records from an Excel file.
-
-![Attendance Input](Screenshots/attendance_input.png)
-
----
-
-### 3. Generated Attendance Report
-
-After processing the data, the bot generates a formatted attendance report highlighting students with low attendance.
-
-![Attendance Report](Screenshots/report.png)
-
----
-
-### 4. Email Notification
-
-Finally, the generated PDF report is automatically sent to the configured email address.
-
-![Email Notification](Screenshots/email.png)
+### Email Notification
+![Email Notification](Screenshots/email.jpeg)
